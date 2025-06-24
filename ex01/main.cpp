@@ -6,7 +6,7 @@
 /*   By: agilles <agilles@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/24 09:55:28 by agilles           #+#    #+#             */
-/*   Updated: 2025/06/24 10:16:23 by agilles          ###   ########.fr       */
+/*   Updated: 2025/06/24 11:02:40 by agilles          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,4 +50,5 @@ int main(void)
 			for (int i = 0; i < 4; i++)
 				std::cout << string_array[i] << std::endl;
 	}
+	return (0);
 }
