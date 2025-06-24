@@ -6,7 +6,7 @@
 /*   By: agilles <agilles@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/24 10:26:47 by agilles           #+#    #+#             */
-/*   Updated: 2025/06/24 10:58:56 by agilles          ###   ########.fr       */
+/*   Updated: 2025/06/24 11:16:58 by agilles          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ class Array
 
 		~Array();
 
-		Array	&operator=(const Array &cp);
+		Array	&operator=(Array const &cp);
 		T			&operator[](unsigned int i);
 		T	const	&operator[](unsigned int i)const;
 

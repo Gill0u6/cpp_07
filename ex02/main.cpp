@@ -6,13 +6,14 @@
 /*   By: agilles <agilles@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/24 11:01:40 by agilles           #+#    #+#             */
-/*   Updated: 2025/06/24 11:02:31 by agilles          ###   ########.fr       */
+/*   Updated: 2025/06/24 11:44:18 by agilles          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <iostream>
 #include "includes/Array.hpp"
 
-int	main()
+int main(int, char**)
 {
 	return (0);
 }
