@@ -6,11 +6,11 @@
 /*   By: agilles <agilles@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/24 10:46:44 by agilles           #+#    #+#             */
-/*   Updated: 2025/06/24 11:42:58 by agilles          ###   ########.fr       */
+/*   Updated: 2025/06/25 10:07:40 by agilles          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Array.hpp"
+#include "../includes/Array.hpp"
 
  template <typename T>
 Array<T>::Array(): _array(NULL), _size(0)
@@ -44,7 +44,7 @@ Array<T>	&Array<T>::operator=(Array const &cp)
 		delete [] _array;
 		_size = cp._size;
 		_array = new T[_size];
-		for (int i = 0; i < _size; i++)
+		for (unsigned int i = 0; i < _size; i++)
 			_array[i] = cp._array[i];
 	}
 	return (*this);
@@ -77,3 +77,4 @@ unsigned int	Array<T>::size() const
 {
 	return (_size);
 }
+

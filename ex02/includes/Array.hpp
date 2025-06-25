@@ -6,7 +6,7 @@
 /*   By: agilles <agilles@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/24 10:26:47 by agilles           #+#    #+#             */
-/*   Updated: 2025/06/24 11:16:58 by agilles          ###   ########.fr       */
+/*   Updated: 2025/06/25 10:07:36 by agilles          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,4 +42,4 @@ class Array
 				virtual const char *what() const throw();
 		};
 };
-#include "Array.tpp"
+#include "../templates/Array.tpp"
